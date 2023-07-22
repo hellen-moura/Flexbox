@@ -11,8 +11,7 @@
 
 .nome-propriedade {
     font-size: 2em;
-    font-weight: 500;
-    /* largura da letra */
+    font-weight: 500;    /* largura da letra */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
     padding: 20px;
@@ -41,7 +40,6 @@
 .container-column {
     display: flex;
     flex-direction: column;
-    /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
     height: 500px;
@@ -51,7 +49,6 @@
 .container-row-reverse {
     display: flex;
     flex-direction: row-reverse;
-    /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
     height: 500px;
@@ -61,11 +58,50 @@
 .container-column-reverse {
     display: flex;
     flex-direction: column-reverse;
-    /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
     height: 500px;
 
+}
+
+.bloco-1 {
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.bloco-2 {
+    background-color: rgb(212, 123, 247);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.bloco-3 {
+    background-color: rgb(248, 221, 99);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .bloco-1 {
@@ -114,8 +150,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center;  centraliza verticalmente.*/
-    /* indiferente */
     background-color: #c7b6f9;
     padding: 16px;
     height: 500px;
@@ -127,7 +161,6 @@
     flex-direction: row;
     padding: 16px;
     justify-content: flex-start;
-    /* indiferente */
     background-color: #c7b6f9;
     height: 500px;
 
@@ -139,25 +172,23 @@
     flex-direction: row;
     padding: 16px;
     justify-content: flex-end;
-    /* indiferente */
     background-color: #c7b6f9;
     height: 500px;
 
 }
 
-.container-justifiy-space-between {  
+.container-justifiy-space-between {
     /* itens flexíveis com espaço entre as linhas */
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding: 16px;
-    /* indiferente */
     background-color: #c7b6f9;
     height: 500px;
 
 }
 
-.container-justifiy-space-around {  
+.container-justifiy-space-around {
     /* itens flexíveis com espaço antes, entre e depois das linhas */
     display: flex;
     justify-content: space-around;
@@ -167,7 +198,7 @@
     height: 500px;
 }
 
-.container-justifiy-space-evenly {  
+.container-justifiy-space-evenly {
     /* os itens são distribuídos igualmente no espaço disponível. */
     display: flex;
     justify-content: space-evenly;
@@ -178,6 +209,74 @@
 }
 
 
+.container-align-items-center {
+/* aling-items:alinha os objetos no eixo secundário e também é depende do flex direction*/
+    display: flex;
+    align-items: center; /*centraliza verticalmente.*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6f9f6;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-flex-start {
+    /* Os itens são posicionados no início do contêiner */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b6f9f6;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-flex-start {
+    /* Os itens são posicionados no início do contêiner */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b6f9f6;
+    padding: 16px;
+    height: 500px;
+}
+
+
+.container-align-items-flex-end {
+    /* Os itens são posicionados no final do contêiner */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b6f9f6;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-baseline {
+    /* Os itens são posicionados na linha de base do contêiner */
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b6f9f6;
+    padding: 16px;
+    height: 500px;
+}
 
 
 
+
+
+.container-align-items-stretch {
+    /* Os itens são esticados para caber no espaço */
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b6f9f6;
+    padding: 16px;
+    height: 500px;
+}
