@@ -28,12 +28,39 @@
 }
 
 .container-row {
+    /* permite alterar a direção na qual os elementos flex serão exibidos ao longo do eixo principal */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
     flex-direction: row;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
 
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
     /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
@@ -80,3 +107,77 @@
     align-items: center;
     display: flex;
 }
+
+
+.container-justifiy-center {
+    /* centralizar os itens horizontalmente dentro do container. */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center;  centraliza verticalmente.*/
+    /* indiferente */
+    background-color: #c7b6f9;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justifiy-flex-start {
+    /* faz com que todos os elementos estejam no início do eixo principal */
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: flex-start;
+    /* indiferente */
+    background-color: #c7b6f9;
+    height: 500px;
+
+}
+
+.container-justifiy-flex-end {
+    /* define que o conteúdo será alinhado a partir do final do eixo principal. */
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: flex-end;
+    /* indiferente */
+    background-color: #c7b6f9;
+    height: 500px;
+
+}
+
+.container-justifiy-space-between {  
+    /* itens flexíveis com espaço entre as linhas */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px;
+    /* indiferente */
+    background-color: #c7b6f9;
+    height: 500px;
+
+}
+
+.container-justifiy-space-around {  
+    /* itens flexíveis com espaço antes, entre e depois das linhas */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 16px;
+    background-color: #c7b6f9;
+    height: 500px;
+}
+
+.container-justifiy-space-evenly {  
+    /* os itens são distribuídos igualmente no espaço disponível. */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 16px;
+    background-color: #c7b6f9;
+    height: 500px;
+}
+
+
+
+
+
