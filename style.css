@@ -19,6 +19,16 @@
 
 }
 
+.nome-propriedade-shorthand {
+    font-size: 2em;
+    font-weight: 700;
+    /* largura da letra */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(9, 255, 0);
+    padding: 20px;
+
+}
+
 .valor-propriedade {
     font-size: 1.5em;
     font-weight: 400px;
@@ -320,7 +330,7 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
-    background-color: #c3f9b6;
+    background-color: #b6f9f6;
     padding: 16px;
     height: 500px;
 }
@@ -332,7 +342,7 @@
     align-items: flex-end;
     flex-direction: row;
     justify-content: center;
-    background-color: #f2f9b6;
+    background-color: #b6f9f6;
     padding: 16px;
     height: 500px;
 }
@@ -343,7 +353,7 @@
     align-items: baseline;
     flex-direction: row;
     justify-content: center;
-    background-color: #f9b6b6;
+    background-color: #b6f9f6;
     padding: 16px;
     height: 500px;
 }
@@ -356,14 +366,14 @@
     align-items: stretch;
     flex-direction: row;
     justify-content: center;
-    background-color: #f9cbb6;
+    background-color: #b6f9f6;
     padding: 16px;
     height: 500px;
 }
 
 
 .container-flexwrap-nowrap {
-    /*  */
+    /*  Valor padrão. Especifica que os itens flexíveis não serão encapsulados*/
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -373,52 +383,109 @@
     height: 500px;
 }
 
-.container-flexwrap-nowrap {
-    /*  */
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #f9cbb6;
-    padding: 16px;
-    height: 500px;
-}
-
-
-.container-flexwrap-nowrap {
-    /*  */
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    background-color: #b6e4f9;
-    padding: 16px;
-    height: 500px;
-}
 
 .container-flexwrap-wrap {
-    /*  */
+    /* Especifica que os itens flexíveis serão encapsulados, se necessário */
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #1d495e;
+    background-color: #f9cbb6;
     padding: 16px;
     height: 500px;
 }
 
 .container-flexwrap-wrap-reverse {
-   
+    /* Especifica que os itens flexíveis serão encapsulados, se necessário, na ordem inversa */
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    flex-direction: row;
     flex-wrap: wrap-reverse;
-    
-    background-color: #c25ae2;
+    justify-content: center;
+    background-color: #f9cbb6;
     padding: 16px;
     height: 500px;
 }
 
+.container-flexflow-rownowrap {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #e9d477;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-content-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #6607ff;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-content-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: start;
+    background-color: #6607ff;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-content-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: end;
+    background-color: #6607ff;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-content-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #6607ff;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-content-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: #6607ff;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-aling-content-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: #6607ff;
+    padding: 16px;
+    height: 500px;
+}
