@@ -491,7 +491,7 @@
 }
 
 
-nav ul {
+.menu-navegacao nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -505,12 +505,12 @@ nav ul {
    
     
 }
-li a {
+ .menu-navegacao li a { /*quando utilizamos menu-navegacao especificamos que é somente o "li a" presente no menu que sofrerá modificada e não de forma geral em todo o código */
     text-decoration: none;
     color: #000000;
 }
 
-a:hover{
+.menu-navegacao a:hover{
     transition: .5s;
     color: #ffffff;
     background-color: #804661;
