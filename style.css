@@ -410,13 +410,15 @@
 }
 
 .container-flexwrap-wrap-reverse {
-    /*  */
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    
     flex-wrap: wrap-reverse;
+    
     background-color: #c25ae2;
     padding: 16px;
     height: 500px;
 }
+
