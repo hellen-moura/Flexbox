@@ -489,3 +489,38 @@
     padding: 16px;
     height: 500px;
 }
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; 
+    text-indent: 90px;
+    /* padding: 15px;
+    margin-top: 20px; */
+    justify-content: center;
+    padding: 30px;
+
+   
+    
+}
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    transition: .5s;
+    color: #ffffff;
+    background-color: #804661;
+    padding: 20px;
+    border-radius: 13px;
+}
+
+.btn-fixed {
+    visibility: visible;
+    text-decoration: none;
+    color: #000000;
+}
+

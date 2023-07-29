@@ -10,16 +10,25 @@
 </head>
 
 <body>
-    <h1 class="titulo-pagina">Propriedades Flexbox - Parte 1: container</h1>
-
-
+    <h1 class="titulo-pagina" id="#top">Propriedades Flexbox - Parte 1: container</h1>
     <hr>
-    <h1 class="nome-propriedade">
+    <nav class="menu-navegacao">
+        <ul>
+            <li><a href="#flex-direction">Flex-direction</a></li>
+            <li><a href="#justidy-content">Justidy-content</a></li>
+            <li><a href="#aling-items">Aling-items</a></li>
+            <li><a href="#flex-wrap">Flex-wrap</a></li>
+            <li><a href="#flex-flow">Flex-flow</a></li>
+            <li><a href="#aling-content">Aling-content</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h1 class="nome-propriedade" >
         1-Display: flex - ativa o Flexbox, ele identifica que aquele elemento será um container flex
     </h1>
     <hr>
 
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="flex-direction">
         2 - Flex-direction - define a direção do eixo principal.
         <br>
         Exemplos
@@ -30,8 +39,8 @@
         <div class="bloco-1">1</div> <!-- shift+ alt+ seta p/baixo copia -->
         <div class="bloco-2">2</div>
         <div class="bloco-3">3</div>
-
     </main>
+    <a class="btn-fixed" href="#top">voltar para o menu</a>
 
     <h2 class="valor-propriedade"> Flex-direction: Column </h2>
     <main class="container-column">
@@ -56,7 +65,7 @@
     </main>
 
     <hr>
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="justidy-content">
         3- Justify-content - serve para alinhar os elementos no eixo principal
         <br>
 
@@ -67,6 +76,7 @@
         <div class="bloco-2">2</div>
         <div class="bloco-3">3</div>
     </main>
+    <a class="btn-fixed" href="#top">voltar para o menu</a>
 
     <h2 class="valor-propriedade"> Justifiy-content: Flex-start</h2>
     <main class="container-justifiy-flex-start">
@@ -109,7 +119,7 @@
 
     </main>
     <hr>
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="aling-items">
         4 - Aling-items - alinha os objetos no eixo perpendicular secundário
         <br>
     </h1>
@@ -119,6 +129,7 @@
         <div class="bloco-2">2</div>
         <div class="bloco-3">3</div>
     </main>
+    <a class="btn-fixed" href="#top">voltar para o menu</a>
 
     <h2 class="valor-propriedade"> Align items: Flex start</h2>
     <main class="container-align-items-flex-start ">
@@ -149,7 +160,7 @@
         <div class="bloco-3-sem-altura">3</div>
     </main>
 
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="flex-wrap">
         5 - Flex-wrap - serve para decidir se os elementos irão para linha de baixo quando chegar ao final da tela ou se
         eles ficarão esprimidos
         <br>
@@ -170,6 +181,7 @@
         <div class="bloco-2">11</div>
         <div class="bloco-3">12</div>
     </main>
+    <a class="btn-fixed" href="#top">voltar para o menu</a>
 
     <h2 class="valor-propriedade"> Flex-wrap: Wrap</h2>
     <main class="container-flexwrap-wrap">
@@ -206,7 +218,7 @@
     </main>
 
     <!-- flex-flow é uma junção das propriedades flex-direction e flex-wrap -->
-    <h1 class="nome-propriedade-shorthand">
+    <h1 class="nome-propriedade-shorthand" id="flex-flow" >
         6 - Flex-flow (SHORTHAND) - é um atalho que combina as propriedades flex-direction e flex-wrap
 
         <br>
@@ -227,9 +239,9 @@
         <div class="bloco-2">11</div>
         <div class="bloco-3">12</div>
     </main>
-
+    <a class="btn-fixed" href="#top">voltar para o menu</a>
     <!-- Aling contentModifica o comportamento da propriedade flex-wrap. É semelhante ao align-items, mas em vez de alinhar os itens flexíveis, alinha as linhas flexíveis -->
-    <h1 class="nome-propriedade">
+    <h1 class="nome-propriedade" id="aling-content">
         7 - Aling Content - Para, quando existir o flex-wrap (ou seja, quebra de linha) e nós queremos alinhar as linhas
         no eixo perpendicular/secundário
 
@@ -248,6 +260,7 @@
             <div class="bloco-2">11</div>
             <div class="bloco-3">12</div>
         </main>
+        <a class="btn-fixed" href="#top">voltar para o menu</a>
 
         <h2 class="valor-propriedade"> Aling Content: Start</h2>
         <main class="container-aling-content-start ">
@@ -345,7 +358,7 @@
             <div class="bloco-1">19</div>
             <div class="bloco-2">20</div>
         </main>
-        
+
         <br>
     </h1>
 </body>
