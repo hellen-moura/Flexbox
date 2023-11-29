@@ -5,55 +5,50 @@ Este repositório fornece exemplos práticos e explicativos para ajudar você a 
 
 Estrutura do Projeto
 plaintext
-Copy code
 /css
   ├── style.css
 /index.html
+
 index.html: O arquivo HTML principal.
 style.css: O arquivo CSS que será vinculado ao arquivo HTML.
 Principais Comandos do Flexbox
 Display Flex:
 
-css
-Copy code
 .container {
   display: flex;
 }
+
 Flex Direction:
 
-css
-Copy code
 .container {
   flex-direction: row; /* ou row-reverse, column, column-reverse */
 }
+
+
 Justify Content:
 
-css
-Copy code
 .container {
   justify-content: space-between; /* ou flex-start, flex-end, center, space-around */
 }
 Align Items:
 
-css
-Copy code
 .container {
   align-items: center; /* ou flex-start, flex-end, center, baseline, stretch */
 }
+
+
 Flex Wrap:
 
-css
-Copy code
 .container {
   flex-wrap: nowrap; /* ou wrap, wrap-reverse */
 }
 Align Content:
 
-css
-Copy code
 .container {
   align-content: flex-start; /* ou flex-end, center, space-between, space-around, stretch */
 }
+
+
 Exemplo Prático
 css
 Copy code
