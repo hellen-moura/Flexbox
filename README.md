@@ -1,8 +1,18 @@
-# Flexbox
 O Flexbox, ou Flexible Box Layout, é uma abordagem eficiente para criar layouts flexíveis, alinhar e distribuir espaços entre itens em um container, mesmo quando suas dimensões são desconhecidas ou dinâmicas.
 
-
+Como Usar Este Material
 Este repositório fornece exemplos práticos e explicativos para ajudar você a compreender e utilizar o Flexbox em seus projetos.
+
+Estrutura do Projeto
+plaintext
+Copy code
+/css
+  ├── style.css
+/index.html
+index.html: O arquivo HTML principal.
+style.css: O arquivo CSS que será vinculado ao arquivo HTML.
+Principais Comandos do Flexbox
+Display Flex:
 
 css
 Copy code
@@ -55,5 +65,5 @@ Copy code
 }
 Este exemplo cria um container flexível com uma linha, espaçamento uniforme entre os itens e alinhamento vertical central.
 
-Conclusão
+
 O Flexbox é uma ferramenta poderosa para layouts flexíveis e responsivos. Experimente diferentes combinações desses comandos para obter os resultados desejados. Este guia cobre os fundamentos, mas há muito mais para explorar no Flexbox. Consulte a documentação oficial do CSS Flexbox para informações detalhadas.
